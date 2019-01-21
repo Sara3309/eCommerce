@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Sign In</title>
+      {% load static %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="{% static 'ecommerce/css/style5.css' %}">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style=background:url("{% static "ecommerce/image/pic71.jpeg" %}">
+            <a class="navbar-brand" href="/">FANTASTIC</a>
+                <i class="fa fa-angellist"></i>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <form class="form-inline my-2 my-lg-0 searchBar" style="margin-left:45%; margin-right:1%;">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-info my-2 my-sm-0 " type="submit">Search</button>
+                  </form>
+            <p class="rightCorner" style="margin-left:-5%;">ALWAYS FIND MORE</p>
+        </nav>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark secondNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/menu">Go Back</a>
+                  </li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-light shoppingCart"><a href="/shopping" style="color:black"class="cart">Shopping Cart</a></button>
+        </nav>
+              <div class="main">
+                  <form>
+                      <div class="form-group">
+                          <label for="exampleInputEmail1">Email Address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@.com">
+                          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-group form-check">
+                            <a class="forget" href="/signUp">Sign Up</a>
+                      </div>
+                      <a href="/user"><button type="button" class="btn btn-default button1">Sign In</button></a>
+                    </form>
+                </div>
+                    <br><br>
+            <div class="footer">
+               <hr />
+               <p class="copyRight">©1989-2018, Sara.com, Inc. or its affilates</p>
+            </div>
+</body>
+</html>

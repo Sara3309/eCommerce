@@ -1,0 +1,67 @@
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:37%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+ 
+    margin-top:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+a.cart{
+    color:black;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:3em;
+}
+.shoppingCart{
+    margin-right:3%;
+}
+.editTable{
+    width:80%;
+    margin-left:10%;
+    padding:4%;
+    background-color:darkgrey;
+    margin-top:8%;
+    padding-left:6%;
+    padding-right:6%;
+    border:1px solid lightcyan;
+    box-shadow:1px 1px lightcyan;
+}
+
+p.edit{
+    font-weight:bold;
+    font-size:18px;
+}
+
+button.confirm{
+    margin-left:-2%;
+    margin-top:3%;
+    background-color:rgb(52,58,64);
+    box-shadow:1px 1px 1px darkgrey;
+    border:1px solid grey;
+    color:white;
+
+}
+
+
+
+
+p.copyRight{
+    font-size:70%;
+    margin-left:2%;
+}
+.footer{
+    margin-top:12%;
+}

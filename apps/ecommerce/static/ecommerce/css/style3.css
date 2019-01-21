@@ -1,0 +1,162 @@
+
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:25%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+    margin-left:4%;
+    margin-top:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:auto;
+}
+a.signIn{
+    font-size:15px;
+}
+a.shoppingCart{
+    font-size:15px;
+    margin-left:80%;
+}
+a.goBack{
+    margin:1.5%;
+    color:white;
+}
+h4{
+   margin-left:35%;
+   margin-top:10%;
+}
+.sidebar{
+    width:30%;
+    margin-left:8%;
+    display:inline-block;
+    margin-top:2%;
+}
+.img1{
+    width:90%;
+}
+.img2{
+    width:17%;
+    margin:6% 2% 2% 2.5%;
+    display:inline-block;
+}
+p.description{
+    display:inline-block;
+    margin-top:5%;
+    width:47%;
+    margin-left:8%;
+    vertical-align: top;
+}
+h6{
+    display:inline-block;
+    margin-left:70%;
+    width:15%;
+   
+}
+.numbers{
+    margin-left:-4%;
+    margin-right:10px;
+}
+.main2{
+    background-color:white;
+    width:100%;
+    margin-top:2%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow:2px 2px 2px #E9E9E9;
+}
+.product1{
+    width:13%;
+    margin:10px 4px 10px 8px;
+    display:inline-block;
+    vertical-align:top;
+    background-image:linear-gradient(to bottom, rgba(78, 78, 78, 0.6) 0%,lightcyan 100%);
+    box-shadow:2px 2px 2px #E9E9E9;
+}
+h4.item{
+    padding-top:1%;
+    padding-left:3%;
+    margin:3% 0 1% 0;
+  
+}
+.img3{
+    width:100%;
+}
+p.copyRight{
+    padding-top:1%;
+    padding-left:2%;
+    font-size:13px;
+}
+hr{
+ margin-top:10%;
+}
+.cart{
+    color:black;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    margin-top:6%;
+    
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+

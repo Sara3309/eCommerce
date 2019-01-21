@@ -1,0 +1,121 @@
+body{
+    background-color:rgb(235, 233, 233) !important;
+}
+.searchBar{
+    margin-left:23%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+    margin-left:4%;
+    margin-top:1%;
+    font-size:140%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:auto;
+}
+a.signIn{
+    font-size:15px;
+}
+a.shoppingCart{
+    font-size:15px;
+    margin-left:70%;
+}
+button.shoppingCart{
+    margin-left:900%;
+}
+.sidebar{
+    width:35%;
+    margin-top:5%;
+    margin-left:3%;
+    padding-bottom:5%;
+    display:inline-block;
+    background-color:lightcyan;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow:2px 2px 2px #E9E9E9;
+}
+p.orderP{
+    margin-left:15%;
+    margin-top:13%;
+}
+ul.information{
+    width:100%;
+    margin-left:3%;
+    margin-right:10%;
+    list-style-type: none;
+    margin-bottom:15%;
+}
+.wrapper{
+    display:inline-block;
+    background-color:white;
+    width:100%;
+    margin-left:2%;
+    vertical-align:top;
+    margin-top:5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow:2px 2px 2px #E9E9E9;
+}
+table.table{
+    width:96%;
+    margin-top:2%;
+    margin-left:2%;
+}
+p.status{
+    margin-left:2%;
+    width:24%;
+    padding:2%;
+    background-color:rgb(52,58,64);
+    display:inline-block;
+    color:white;
+}
+ul.total{
+   
+    list-style-type: none;
+    display:inline-block;
+    padding:2%;
+    margin-left:50%;
+}
+a.click{
+    vertical-align:top;
+    font-size:80%;
+    display:block;
+    margin-top:10%;
+    margin-left:22%;
+    background-color:rgb(52,58,64) !important;
+}
+.footer{
+    display:inline-block;
+}
+.main{
+    display:inline-block;
+    vertical-align:top;
+    width:57%;
+    margin-top:2%;
+}
+p.question{
+    margin-top:10%;
+    margin-left:10%;
+}
+.fill{
+    margin-left:10%;
+}
+p.copyRight{
+    font-size:80%;
+    margin-left:3%;;
+}

@@ -1,0 +1,60 @@
+
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:23%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+    margin-left:4%;
+    margin-top:1%;
+    font-size:140%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:auto;
+}
+a.signIn{
+    font-size:15px;
+}
+a.shoppingCart{
+    font-size:15px;
+    margin-left:80%;
+}
+.main{
+width:40%;
+background-color:darkgrey;
+font-size:15px;
+margin-left:30%;
+margin-top:12%;
+
+padding:2%;
+border:2px solid rgb(146, 146, 146);
+box-shadow:1px 1px 1px darkgrey;
+}
+.button1{
+    background-color:rgb(52,58,64);
+    color:white;
+    margin-left:40%;
+}
+a.forget{
+    margin-left:-3%;
+    color:lightcyan;
+    font-size:90%;
+} 
+.footer{
+    margin-top:28%;
+}
+p.copyRight{
+    font-size:75%;
+    margin-left:3%;
+} 

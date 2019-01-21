@@ -1,0 +1,213 @@
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:80%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+  
+    
+    margin-top:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:3em;
+}
+a.signIn{
+    font-size:100%;
+}
+.main1{
+    width:98%;
+    height:auto;
+    background-color:white;
+    margin:1%;
+}
+.img1{
+    width:100%;
+    margin-bottom:2%;
+}
+.card1  {
+    width:21%;
+    display:inline-block;
+    margin-left:2.2em;
+    margin-top:2em;
+    background-color:white;
+    /* border:groove; */
+}
+.main1 p{
+    text-align:center;
+    font-size:160%;
+
+}
+a.link1{
+    margin-left:5%;
+}
+.main2{
+    padding:0 1% 1%;
+    margin:1%;
+    width:98%;
+    height:auto;
+    background-color:white;
+}
+.product1{
+    margin:1.2%;
+    width:17%;
+    margin-left:2%;
+    display:inline-block;
+    background-color:white;
+}
+.img2{
+    width:100%;
+    padding:1%;
+    height:auto;
+}
+
+p.p2{
+    text-align: center;
+}
+.forYou{
+    padding-top:2%;
+    padding-left:1%;
+}
+.swipe{
+    overflow:auto;
+    white-space:nowrap;
+}
+
+
+.middleContainer{
+    background-color:white;
+    width:98%;
+    padding:2%;
+    margin-left:1%;
+    margin-bottom:2%;
+}
+
+
+.buttonDisplay{
+    margin-top:25%;
+    margin-left:2%;
+    margin-right:2%;
+}
+.mySlides{
+    max-width:100%;
+    
+}
+.content{
+    margin-left:2%;
+    margin-bottom:2%;
+ 
+}
+
+
+
+.footer{
+    height:auto;
+    width:98%;
+    margin-left:1%;
+    background-color:lightgrey;
+}
+.buttonDown1{
+    
+    margin-left:65%;
+}
+.buttonDown2{
+    margin-left:6%;
+}
+.aboutUs{
+    display:inline-block;
+    margin-left:7.5%;
+}
+.help{
+    padding-top:1.5%;
+    margin-left:33%;
+    display:inline-block;
+}
+.footer li{
+    
+    margin:5%;
+    list-style-type:none;
+    color:white;
+}
+
+p.copyRight{
+    
+    font-size:80%;
+    display:inline-block;
+    width:30%;
+    
+}
+form.searchBar{
+    margin-left:20%;
+    width:30%;
+}
+@media only screen and (max-width:480px){
+    form.searchBar{
+        margin-left:-1%;
+    }
+    .rightCorner{
+        display:none;
+    }
+    .card2{
+        display:none;
+    }
+    p.copyRight{
+      margin-left:42%;
+      margin-top:2%;
+      width:60%;
+    }
+    .footer ul{
+        display:none;
+    }
+    .buttonDown2{
+        margin-left:65%;
+        margin-top:1%;
+    }
+  .navbar-toggler{
+      display:none;
+  }
+}
+
+@media only screen and (max-width:970px){
+    .rightCorner{
+        display:none;
+    }
+    .card2{
+        display:none;
+    }
+    .buttonDown2{
+        margin-left:65%;
+        margin-top:1%;
+    }
+    .footer ul{
+        display:none;
+    }
+   
+}
+/* @media only screen and (max-width:480px){
+    .rightCorner{
+            display:none;
+     }
+    form.searchBar{
+        display:none;
+    }
+    .sidebar{
+        display:none;
+    }
+    .main{
+        width:97%;
+    }
+    .navbar-toggler{
+        visibility:visible;
+    }
+    } */

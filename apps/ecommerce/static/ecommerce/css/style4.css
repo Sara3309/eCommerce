@@ -1,0 +1,132 @@
+
+body{
+    background-color:white!important;
+}
+.searchBar{
+    margin-left:25%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+    margin-left:4%;
+    margin-top:1%;
+    font-size:140%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:auto;
+}
+a.signIn{
+    font-size:15px;
+}
+a.cart{
+    color:black;
+}
+button.shoppingCart{
+    margin-right:4%;
+}
+a.goBack{
+    margin:1.5%;
+    color:black;
+}
+a.delete{
+    margin-left:40%;
+ 
+}
+.numbers{
+    margin-left:80%;
+}
+table.item {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:5%;
+    margin-top:3%;
+}
+
+.item td,.item th {
+    border: 2px solid lightcyan;
+    text-align: left;
+    padding: 8px;
+    width:20%;
+}
+
+.item tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.item th{
+    background-color:black;
+    color:white;
+}
+p.price{
+margin-left:85%;
+margin-top:2%;
+}
+.continue{
+    background-color:rgb(52,58,64);
+    margin-left:98%;
+    border:2px solid rgb(52,58,64);
+    box-shadow:1px 1px 1px rgb(172, 171, 171);
+    color:white;
+}
+h4{
+    margin-left:10%;
+    width:34%;
+    display:inline-block;
+}
+.information{
+    width:90%;
+    height:auto;
+    padding-top:2%;
+    background-color:rgb(165, 161, 161);
+    margin-left:5%;
+    border:1px solid lightcyan;
+    box-shadow:1px 1px .5px #E9E9E9;
+    
+}
+.list1{
+    width:50%;
+    margin:0;
+    display:inline-block;
+}
+.checkbox{
+    margin-left:-24%;
+}
+
+.form-group input{
+    width:280px;
+
+    margin-left:28%;;
+}
+p.remember{
+    margin-left:28%;
+}
+.form-group label{
+    margin-left:10%;
+}
+button.confirm{
+    margin-left:10%;
+    background-color:rgb(52,58,64);
+    box-shadow:2px 2px 2px #E9E9E9;
+    border:1px solid grey;
+    color:white;
+}
+
+.list2{
+    width:40%;
+    margin:0;
+    display:inline-block;
+
+}
+p.copyRight{
+    font-size:70%;
+    margin-left:5%;
+}

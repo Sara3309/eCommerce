@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Menu</title>
+      {% load static %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="{% static 'ecommerce/css/style2.css' %}">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" style=background:url("{% static "ecommerce/image/pic71.jpeg" %}">
+                    <a class="navbar-brand" href="/">FANTASTIC</a>
+                    <i class="fa fa-angellist"></i>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                      <form class="form-inline my-2 my-lg-0 searchBar" style="margin-left:42%; margin-right:1%;">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-info my-2 my-sm-0 " type="submit">Search</button>
+                      </form>
+                      <p class="rightCorner" style="margin-left:-3%;">ALWAYS FIND MORE</p>
+                </nav>
+        
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark secondNav">
+                      <a class="navbar-brand signIn" href="/sign_in">SIGN IN</a>
+                   
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/menu">Today's Special</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/menu">Gift Card</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link " href="/menu"  aria-haspopup="true" aria-expanded="false">
+                                Find
+                              </a>
+                            
+                            </li>
+                        </ul>
+                      </div>
+                      <button type="button" class="btn btn-light shoppingCart"><a href="/shopping" class="cart">Shopping Cart</a></button>
+                </nav>
+            <div class="sidebar" >
+                <h5>Categories</h5>
+                <ul class="sidebar">
+                    <li>Tops (29)</li>
+                    <li>Dresses (36)</li>
+                    <li>Jackets (89)</li>
+                    <li>Jeans (67)</li>
+                    <li>Bags (45)</li>
+                    <li>Petite (34)</li>
+                </ul>
+                <br>
+                <hr />
+
+                <h5>Brands</h5>
+                <ul class="sidebar">
+                 <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                    <label for="bk">BK</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                        <label for="bk">OOKse4</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                        <label for="bk">BKDFG3</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                         <label for="bk">BK3G</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                        <label for="bk">BKDD7K</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                        <label for="bk">PS9K</label></li>
+                    <li><input type="checkbox" id="bk" name="brand" value="bkß">
+                        <label for="bk">293MH</label></li>
+                
+                
+                </ul>
+            </div>
+             <div class="main">
+                    <h3 class="tshirt">T-shirts</h3>
+                  <div class="product1">
+                   <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic25.jpeg" %}" alt="xxxx"/></a>
+                   <p class="p2" style="margin-left:35%;">$59.99</p>
+                   </div>
+                   <div class="product1">
+                        <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/img2.jpeg" %}" alt="xxxx"/></a>
+                       <p class="p2" style="margin-left:35%;">$49.99</p>
+                   </div>
+                   <div class="product1 ">
+                        <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic36.jpeg" %}" alt="xxxx"/></a>
+                       <p class="p2" style="margin-left:35%;">$29.99</p>
+                     </div>
+                     <div class="product1">
+                            <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/img3.jpeg" %}" alt="xxxx"/></a>
+                         <p class="p2" style="margin-left:35%;">$89.99</p>
+                     </div>
+                     <div class="product1 card2">
+                            <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/img14.jpeg" %}" alt="xxxx"/></a>
+                         <p class="p2" style="margin-left:35%;">$49.99</p>
+                     </div>
+
+                     <div class="product1">
+                            <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic38.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$59.99</p>
+                            </div>
+                            <div class="product1">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic32.jpeg" %}" alt="xxxx"/></a>
+                                <p class="p2" style="margin-left:35%;">$49.99</p>
+                            </div>
+                            <div class="product1 ">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/img10.jpeg" %}" alt="xxxx"/></a>
+                                <p class="p2" style="margin-left:35%;">$29.99</p>
+                              </div>
+                              <div class="product1">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic43.jpeg" %}" alt="xxxx"/></a>
+                                  <p class="p2" style="margin-left:35%;">$89.99</p>
+                              </div>
+                              <div class="product1 card2">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic45.jpeg" %}" alt="xxxx"/></a>
+                                  <p class="p2" style="margin-left:35%;">$49.99</p>
+                              </div>
+
+                        <div class="product1">
+                                <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic30.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$59.99</p>
+                            </div>
+                            <div class="product1">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic46.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$49.99</p>
+                            </div>
+                            <div class="product1 ">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic68.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$29.99</p>
+                            </div>
+                            <div class="product1">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic62.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$89.99</p>
+                            </div>
+                            <div class="product1 card2">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic67.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$49.99</p>
+                            </div>
+                            <div class="product1 card2">
+                                    <a href="/product_detail"><img class="img2" src="{% static "ecommerce/image/pic56.jpeg" %}" alt="xxxx"/></a>
+                            <p class="p2" style="margin-left:35%;">$49.99</p>
+                            </div>
+                    <div class="footer">
+                   
+                            <p class="copyRight">©1989-2018, Sara.com, Inc. or its affilates</p>
+                    </div>
+                  </div>
+               
+            </div> 
+
+
+    </body>
+    </html>

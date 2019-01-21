@@ -1,0 +1,88 @@
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:37%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+ 
+    margin-top:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:3em;
+}
+a.signIn{
+    font-size:100%;
+}
+.showUser{
+	background-color:darkgrey;
+	margin-left:5%;
+	margin-top:5%;
+	width:42%;
+	padding:5%;
+    display:inline-block;
+    vertical-align:top;
+    border:1px solid lightcyan;
+}
+p.display{
+    font-size:23px;
+    display:inline-block;
+    margin-left:3%;
+
+
+}
+.display1{
+    display:inline-block;
+    color:black;
+}
+.display2{
+    margin-left:10%;
+    font-size:23px;
+    display:inline-block;
+}
+.display3{
+    margin-left:6%;
+    font-size:23px;
+    display:inline-block;
+}
+
+h6.display4{
+    margin-bottom:7%;
+    color:black;
+
+}
+.star{
+    margin-top:-3%;
+}
+button.confirm{
+    margin-left:-5%;
+    margin-top:8%;
+    display:inline-block;
+    background-color:rgb(52,58,64);
+    box-shadow:1px 1px 1px darkgrey;
+    border:1px solid grey;
+    color:white;
+}
+
+
+.checked{
+    color:lightcyan;
+}
+p.copyRight{
+    font-size:70%;
+    margin-left:2%;
+}
+.footer{
+    margin-top:20%;
+}

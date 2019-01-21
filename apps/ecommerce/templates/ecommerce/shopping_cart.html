@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>EcommercePage4</title>
+      {% load static %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="{% static 'ecommerce/css/style4.css' %}">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style=background:url("{% static "ecommerce/image/pic71.jpeg" %}">
+            <a class="navbar-brand" href="/">FANTASTIC</a>
+                    <i class="fa fa-angellist"></i>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                      <form class="form-inline my-2 my-lg-0 searchBar" style="margin-left:45%; margin-right:1%;">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-info my-2 my-sm-0 " type="submit">Search</button>
+                      </form>
+          <p class="rightCorner" style="margin-left:-5%;">ALWAYS FIND MORE</p>
+        </nav>
+        
+                  <nav class="navbar navbar-expand-lg navbar-dark bg-dark secondNav">
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="/sign_in">SIGN IN<span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/product_detail">Go Back</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <button type="button" class="btn btn-light shoppingCart"><a href="/shopping" class="cart">Shopping Cart</a></button>
+                </nav>
+                  <table class="item">
+                        <tr>
+                          <th>Item</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>Total</th>
+                        </tr>
+                        <tr>
+                          <td>White Shirt</td>
+                          <td>$29.99</td>
+                          <td>1  <select class="numbers">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                  </select></td>
+                          <td>$29.99 <a class="delete" style="margin-left:60%;" href="/menu">Delete</a></td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                     </table>
+                     <p class="price">Total:$29.99</p>
+                     <div class="col-sm-offset-2 col-sm-10">
+                        <a href="/menu"><button type="submit" style="margin-left:98%;"class="btn btn-default continue">Continue Shopping</button></a>
+                    </div>
+                     <h4>Shipping Information</h4>
+                     <h4>Billing Information</h4>
+                     <div class="information">
+                            
+                    <form class="form-horizontal list1" style="vertical-align:top;">
+                        
+                            <div class="form-group">
+                              <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                              <div class="col-sm-4">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                              <div class="col-sm-4">
+                                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                    <label for="inputAddress3" class="col-sm-2 control-label">Address</label>
+                                    <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="address3" placeholder="Address">
+                                    </div>
+                                  </div>
+                                  <div class="form-group">
+                                        <label for="inputAddress3" class="col-sm-2 control-label">Address2</label>
+                                        <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="address2" placeholder="Address2">
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputCity" class="col-sm-2 control-label">City</label>
+                                        <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="inputCity" placeholder="City">
+                                        </div>
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputState" class="col-sm-2 control-label">State</label>
+                                        <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="inputState" placeholder="State">
+                                        </div>
+                                </div>
+                                    <div class="form-group">
+                                         <label for="zipCode" class="col-sm-1 control-label">Zipcode</label>
+                                        <div class="col-sm-4">
+                                         <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
+                                        </div>
+                                    </div>
+        
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                <a href="/sign_in"><button type="button" style="margin-top:11%;" class="btn btn-default confirm">Confirm</button></a>
+                              </div>
+                            </div>
+                          </form>
+
+                          <form class="form-horizontal list2">
+                                <div class="form-group">
+                                       
+                                  <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                  <div class="col-sm-4">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                  <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                  <div class="col-sm-4">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                        <label for="inputAddress3" class="col-sm-2 control-label">Address</label>
+                                        <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="address3" placeholder="Address">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                            <label for="inputAddress3" class="col-sm-2 control-label">Address2</label>
+                                            <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="address2" placeholder="Address2">
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputCity" class="col-sm-2 control-label">City</label>
+                                            <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="inputCity" placeholder="City">
+                                            </div>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="inputState" class="col-sm-2 control-label">State</label>
+                                            <div class="col-sm-4">
+                                            <input type="text" class="form-control" id="inputState" placeholder="State">
+                                            </div>
+                                    </div>
+                                        <div class="form-group">
+                                             <label for="zipCode" class="col-sm-2 control-label">Zipcode</label>
+                                            <div class="col-sm-4">
+                                             <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
+                                            </div>
+                                        </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10">
+                                         <div class="checkbox">
+                                         <input type="checkbox"><p class="remember">Same as shipping address</p> 
+                                       </div>
+                                     </div>
+                                    </div>
+                                <div class="form-group">
+                                  <div class="col-sm-offset-2 col-sm-10">
+                                  <a href="/sign_in"><button type="button" class="btn btn-default confirm">Pay</button></a>
+                                  </div>
+                                </div>
+                              </form>
+                              </div>
+                              <hr />
+                              <p class="copyRight">©1989-2018, Sara.com, Inc. or its affilates</p>
+    </body>
+    </html>

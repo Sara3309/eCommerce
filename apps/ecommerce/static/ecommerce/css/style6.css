@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(235, 233, 233) !important;
+}
+.searchBar{
+    margin-left:38%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+  
+    margin-top:1%;
+    font-size:140%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:auto;
+}
+a.signIn{
+    font-size:15px;
+}
+a.shoppingCart{
+    font-size:15px;
+    margin-left:70%;
+}
+p.menuP{
+    margin-left:85%;
+    margin-top:2%;
+    margin-bottom:1%;
+}
+.order{
+    margin-left:85%;
+}
+.orderButton{
+background-color: rgb(52,58,64);
+color:white;
+}
+table.table{
+    width:90%;
+    margin-left:5%;
+    margin-top:2%;
+    box-shadow:.5px .5px 1px #E9E9E9;
+    border:1px solid lightcyan;
+}
+ul.page1 {
+    vertical-align:top;
+    margin-right:7%;
+    margin-top:22%;
+ }
+
+ p.copyRight{
+     width:50%;
+     margin-left:5%;
+     font-size:80%;
+ }
+ a.page-link{
+     font-size:75%;
+    
+ }

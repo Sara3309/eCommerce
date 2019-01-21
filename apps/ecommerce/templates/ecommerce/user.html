@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Display User</title>
+      {% load static %}
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="{% static 'ecommerce/css/user.css' %}">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style=background:url("{% static "ecommerce/image/pic71.jpeg" %}">
+            <a class="navbar-brand" href="/">FANTASTIC</a>
+                <i class="fa fa-angellist"></i>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <form class="form-inline my-2 my-lg-0 searchBar" style="margin-left:44%; margin-right:1%;">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-info my-2 my-sm-0 " type="submit">Search</button>
+                  </form>
+            <p class="rightCorner" style="margin-left:-5%;">ALWAYS FIND MORE</p>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark secondNav">
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                       <li class="nav-item">
+                          <a class="nav-link" href="/home">Log Out</a>
+                      </li>
+                  </ul>
+                </div>
+              <a href="/shopping"><button type="button shoppingCart" class="btn btn-light">Shopping Cart</button></a>
+          </nav>
+  
+          <div class="showUser">
+              <h6 class="display1">First Name</h6>
+                  <p class="display">Sara</p><br>
+              <h6 class="display1">Last Name</h6>
+                  <p class="display">Lin</p><br>
+              <h6 class="display1">Email</h6>
+                  <p class="display2">111@email.com</p><br>
+          
+              {% comment %} <h6 class="display1">Address</h6>
+                  <p class="display3">1234 This street, That Town, CA</p> {% endcomment %}
+              <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <a href="/edit"><button type="button" class="btn btn-default confirm">Edit</button></a>
+                  </div>
+                  <div class="col-sm-offset-2 col-sm-10 buttonView">
+                      <a href="/order"><button type="button" class="btn btn-default confirm">View Your Orders</button></a>
+                  </div>
+              </div>
+            </div>
+        <div class="showUser">
+            <h6 class="display4">Products reviewed</h6>
+              <div class="products">
+                  <b><p class="prroductName">White shirt</p></b>
+                  <hr/>
+                  <p>I like this material.</p>
+                  <h6 class="display4">Rating</h6>
+                <div class="star">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>  
+              </div>
+          </div>
+            <div class="footer">
+                <hr />
+                <p class="copyRight">©1989-2018, Sara.com, Inc. or its affilates</p>
+            </div>
+    </body>
+</html>

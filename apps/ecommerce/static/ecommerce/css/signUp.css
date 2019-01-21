@@ -1,0 +1,71 @@
+body{
+    background-color:lightgrey !important;
+}
+.searchBar{
+    margin-left:37%;
+    width:28%;
+    
+}
+.rightCorner{
+    display:inline-block;
+ 
+    margin-top:1%;
+    font-size:150%;
+    font-weight:bold;
+}
+a.navbar-brand{
+    font-size:190%;
+}
+i.fa-angellist{
+    font-size:250%;
+}
+.secondNav{
+    height:3em;
+}
+a.signIn{
+    font-size:100%;
+}
+.signUpTable{
+    width:50%;
+    margin-left:25%;
+    margin-top:5%;
+    background-color:darkgrey;
+    padding:3%;
+    border:2px solid rgb(146, 146, 146);
+    box-shadow:1px 1px 1px darkgrey;
+}
+button.confirm{
+    margin-left:-3%;
+    margin-top:3%;
+    background-color:rgb(52,58,64);
+    box-shadow:1px 1px 1px darkgrey;
+    border:1px solid grey;
+    color:white;
+
+}
+p.copyRight{
+    font-size:70%;
+    margin-left:2%;
+}
+.footer{
+    margin-top:12%;
+}
+
+
+@media only screen and (max-width:480px){
+.rightCorner{
+        display:none;
+ }
+form.searchBar{
+    display:none;
+}
+.sidebar{
+    display:none;
+}
+.main{
+    width:97%;
+}
+.navbar-toggler{
+    visibility:visible;
+}
+}
